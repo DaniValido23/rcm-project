@@ -26,9 +26,9 @@ export const TopMenu = () => {
       <div>
         <Link href="/">
           <span className={`${titleFont.className } antialiased font-bold`}>
-            Teslo
+            Restaurante Campestre
           </span>
-          <span> | Shop</span>
+          <span> | Mariana</span>
         </Link>
       </div>
 
@@ -36,21 +36,15 @@ export const TopMenu = () => {
       <div className="hidden sm:block">
         <Link
           className="m-2 p-2 rounded-md transition-all hover:bg-gray-100"
-          href="/gender/men"
+          href="#"
         >
-          Hombres
+          Menu de la carta
         </Link>
         <Link
           className="m-2 p-2 rounded-md transition-all hover:bg-gray-100"
-          href="/gender/women"
+          href="#"
         >
-          Mujeres
-        </Link>
-        <Link
-          className="m-2 p-2 rounded-md transition-all hover:bg-gray-100"
-          href="/gender/kid"
-        >
-          Niños
+          Paquetes especiales
         </Link>
       </div>
 

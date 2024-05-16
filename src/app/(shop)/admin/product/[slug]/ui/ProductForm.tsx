@@ -167,7 +167,7 @@ export const ProductForm = ({ product, categories }: Props) => {
           <span>Categoria</span>
           <select
             className="p-2 border rounded-md bg-gray-200"
-            {...register("categoryId", { required: true })}
+            {...register("categoryId", { required: false })}
           >
             <option value="">[Seleccione]</option>
             {categories.map((category) => (
@@ -194,7 +194,7 @@ export const ProductForm = ({ product, categories }: Props) => {
 
         {/* As checkboxes */}
         <div className="flex flex-col">
-          <span>Tallas</span>
+          <span>Tamaños</span>
           <div className="flex flex-wrap">
             {sizes.map((size) => (
               // bg-blue-500 text-white <--- si está seleccionado

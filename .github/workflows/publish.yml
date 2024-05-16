@@ -1,0 +1,10 @@
+name: publish
+
+on:
+  push:
+    branches: ["master"]
+  pull_requests:
+    branches: ["master"]
+
+jobs:
+  
