@@ -12,6 +12,7 @@ import {
   IoSearchOutline,
   IoShirtOutline,
   IoTicketOutline,
+  IoFlameOutline
 } from "react-icons/io5";
 
 import { useUIStore } from "@/store";
